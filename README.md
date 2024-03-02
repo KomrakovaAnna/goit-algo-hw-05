@@ -1,24 +1,28 @@
 # goit-algo-hw-05
 
-### Отримані результати:
+## Отримані результати:
 
-Boyer-Moore:
-Boyer-Moore:
-Existing pattern in article 1: 0.1696990460040979
-Existing pattern in article 2: 0.10034663905389607
-Random pattern: 0.2276494419784285
-Knuth-Morris-Pratt:
-Existing pattern in article 1: 3.6525902259745635
-Existing pattern in article 2: 1.5095795569941401
-Random pattern: 5.2675993730081245
-Rabin-Karp:
-Existing pattern in article 1: 3.1102624750346877
-Existing pattern in article 2: 1.404069376992993
-Random pattern: 4.729012145020533
+**Boyer-Moore:**
 
-### Висновки:
+- Existing pattern in article 1: 0.1696990460040979
+- Existing pattern in article 2: 0.10034663905389607
+- Random pattern: 0.2276494419784285
 
-# Boyer-Moore:
+**Knuth-Morris-Pratt:**
+
+- Existing pattern in article 1: 3.6525902259745635
+- Existing pattern in article 2: 1.5095795569941401
+- Random pattern: 5.2675993730081245
+
+**Rabin-Karp:**
+
+- Existing pattern in article 1: 3.1102624750346877
+- Existing pattern in article 2: 1.404069376992993
+- Random pattern: 4.729012145020533
+
+# Висновки:
+
+### Boyer-Moore:
 
 - Для існуючого підрядка в статті 1 час виконання: 0.169 секунд.
 - Для існуючого підрядка в статті 2 час виконання: 0.100 секунд.
@@ -26,7 +30,7 @@ Random pattern: 4.729012145020533
 
 Алгоритм Боєра-Мура демонструє ефективність у випадку пошуку існуючих підрядків, зокрема він працює швидше при пошуку в статті 2.
 
-# Knuth-Morris-Pratt:
+### Knuth-Morris-Pratt:
 
 - Для існуючого підрядка в статті 1 час виконання: 3.653 секунд.
 - Для існуючого підрядка в статті 2 час виконання: 1.510 секунд.
@@ -34,7 +38,7 @@ Random pattern: 4.729012145020533
 
 Алгоритм Кнута-Морріса-Пратта демонструє відносно високий час виконання порівняно з іншими алгоритмами, особливо виконання для вигаданого підрядка.
 
-# Rabin-Karp:
+### Rabin-Karp:
 
 - Для існуючого підрядка в статті 1 час виконання: 3.110 секунд.
 - Для існуючого підрядка в статті 2 час виконання: 1.404 секунд.
